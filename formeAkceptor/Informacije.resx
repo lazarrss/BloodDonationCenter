@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Krvne grupe
+
+Zastupljenost krvih grupa:
+
+A(41%)
+B(17%)
+AB(7%)
+O(35%)
+
+Svaki tip možr biti Rh+ ili Rh-.
+Svi mogu primiti O- krv ukoliko je to nephodno, ali je svakako 
+bolje da svako primi krv svoje krvne grupe da bi se sprečile potencijalne komplikacije.
+
+Ko može da donira krv?
+
+Sve zdrave odrasle osobe, starosti od 18 do 65 godina, nakon laboratorijskog i lekarskog pregleda.
+Obično se daje oko 470ml krvi, što je 8% ukupne količine krvi odraslog čoveka.
+Telo će zameniti ovu zapreminu u roku od 24 do 48 sati, a obnoviti crvena krvna zrnca za 10 do 12 nedelja.
+
+Uslovi za davanje krvi
+
+Da je osoba:
+Zdrava, dobrog opšteg stanja
+Teža od 50 kg
+Telesne temperature manje od 37C
+Pulsa između 50 – 100/min
+Krvnog pritiska: ne višeg od 24/14 kPai ne nižeg od 13,3/8,66 kPa
+Nalaz nad plućima i srcem mora biti uredan
+Ždrelo mora biti bez upale
+Limfne žlezde vrata i pazuha, jetra i slezina ne smeju biti uvećane
+Hemoglobin mora biti iznad 135 g/L(Hct = 0.38) za muškarce
+Hemoglobin mora biti iznad 125 g/L(Hct = 0.4) za žene
+Interval između davanja krvi treba biti 3 meseca(12 nedelja) za muškarce i 4 meseca (16 nedelja) za žene,
+dok krvna plazma može da se donira na 2 nedelje.
+
+Kako krv može da se daje?
+
+Uobičajeno davanje krvi (davanje cele krvi)
+Davanje krvi afereznim postupcima (davanje delova krvi):
+Citafereze (davanje krvnih ćelija)
+Plazmafereze (davanje plazme).
+
+Da li se davanjem krvi može dobiti neka zarazna bolest? 
+
+NE. Pribor za uzimanje krvi je sterilan i za jednokratnu upotrebu.
+
+Da li je davanje krvi bolno? NE
+
+Sam ubod igle se oseti, ali se ne može proglasiti bolom. Samo davanje krvi koje traje 5-10 minuta nije bolno.
+
+Uputstvo za davaoce krvi
+
+Molimo Vas da popunite upitnik
+Predajte potuno popunjen i potpisan upitnik službenom licu koje radi na registraciji davalaca
+Medicinski tehničar će iz kapi krvi uzete iz Vašeg prsta odrediti nivo hemoglobina
+Lekar će Vas pregledati i odlučiti da li ćete toga dana dati krv
+Setom za jednokratnu upotrebu će medicinski tehničar uzeti krv
+Nakon davanja krvi ostanite desetak minuta i poslužite se zahvalnim obrokom i popijte malo tečnosti
+Zavoj na pregibu lakta nemojte skidati sledeća dva sata
+U interesu Vašeg zdravlja je da dva sata ne zapalite cigaretu
+Vaša krv će biti detaljno ispitana i na bolesti koje se mogi preneti transfuzijom: SIDA, žutica B i C i sifilis.
+Vaša krv će biti upotrebljena blagovremeno!
+
+GDE SE MOŽE DATI KRV :
+
+U akcijama dobrovoljnog davanja krvi koje organizuje Crveni krst i u službama transfuzije krvi.
+
+U Beogrаdu se krv može dаti u :
+
+Institutu zа trаnsfuziju krvi Srbije, ul. Svetog Sаve 39, rаdnim dаnom od 7-15,00 čаsovа
+Službi za transfuziju krvi KBC”Zemun”, ul. Vukova 9, petak-ponedeljak  od 7-17,00 časova 
+Poslušajte savet o ponašanju pre dolaska na davanje krvi i dođite odmorni i lagano doručkujte
+
+Poslušajte savet o ponašanju i nakon davanja krvi: uzmite naš obrok zahvalnosti,
+uzmite dovoljno tečnosti,izbegnite žurbu, pušenje, alkohol, dugotrajno stajanje, 
+pregrejane prostorije ili naporne vežbe nekolko sati nakon davanja krvi.</value>
+  </data>
+</root>
