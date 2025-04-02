@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0F0F7AA-6DE3-44F7-8E31-116C9D247BCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Akceptor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Akceptor.Designer.cs">
+      <DependentUpon>Akceptor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor.Designer.cs">
+      <DependentUpon>Doktor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donor.Designer.cs">
+      <DependentUpon>Donor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeAkceptor\Informacije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeAkceptor\Informacije.Designer.cs">
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeAkceptor\nalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeAkceptor\nalog.Designer.cs">
+      <DependentUpon>nalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeAkceptor\pregledDonora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeAkceptor\pregledDonora.Designer.cs">
+      <DependentUpon>pregledDonora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDoktor\dodajPacijenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDoktor\dodajPacijenta.Designer.cs">
+      <DependentUpon>dodajPacijenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDoktor\PotraziKrv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDoktor\PotraziKrv.Designer.cs">
+      <DependentUpon>PotraziKrv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDoktor\pregledDonora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDoktor\pregledDonora.Designer.cs">
+      <DependentUpon>pregledDonora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\HitniSlucajevi.cs" />
+    <Compile Include="formeDonor\hitniZahtevi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\hitniZahtevi.Designer.cs">
+      <DependentUpon>hitniZahtevi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\hitno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\hitno.Designer.cs">
+      <DependentUpon>hitno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\istorija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\istorija.Designer.cs">
+      <DependentUpon>istorija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\izmeniProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\izmeniProfil.Designer.cs">
+      <DependentUpon>izmeniProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formeDonor\profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formeDonor\profil.Designer.cs">
+      <DependentUpon>profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrujse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrujse.Designer.cs">
+      <DependentUpon>Registrujse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sve\Dugme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sve\Kalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tekst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tekst.Designer.cs">
+      <DependentUpon>Tekst.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Akceptor.resx">
+      <DependentUpon>Akceptor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor.resx">
+      <DependentUpon>Doktor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donor.resx">
+      <DependentUpon>Donor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeAkceptor\Informacije.resx">
+      <DependentUpon>Informacije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeAkceptor\nalog.resx">
+      <DependentUpon>nalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeAkceptor\pregledDonora.resx">
+      <DependentUpon>pregledDonora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDoktor\dodajPacijenta.resx">
+      <DependentUpon>dodajPacijenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDoktor\PotraziKrv.resx">
+      <DependentUpon>PotraziKrv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDoktor\pregledDonora.resx">
+      <DependentUpon>pregledDonora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\hitniZahtevi.resx">
+      <DependentUpon>hitniZahtevi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\hitno.resx">
+      <DependentUpon>hitno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\istorija.resx">
+      <DependentUpon>istorija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\izmeniProfil.resx">
+      <DependentUpon>izmeniProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formeDonor\profil.resx">
+      <DependentUpon>profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrujse.resx">
+      <DependentUpon>Registrujse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tekst.resx">
+      <DependentUpon>Tekst.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kalendaaaaaaar.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kolca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+    <None Include="Resources\log-out40x40.png" />
+    <None Include="Resources\info1.png" />
+    <None Include="Resources\info32x32.png" />
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\srce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daj-krv-spasi-zivot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ccccc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulance40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man100x100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man106x106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group38x38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus40x401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out40x401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\srceeee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krvvvv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginslika.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blooooooooood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
